@@ -501,7 +501,7 @@ input, select, textarea {
 
 	body, input, textarea, select {
 		font-family: "Source Sans Pro", "sans-serif";
-		font-weight: 300;
+		font-weight: 700;
 		font-size: 18pt;
 		line-height: 1.75em;
 		color: #39454b;
@@ -665,7 +665,7 @@ input, select, textarea {
 		background-color: #98c593;
 		border: 0;
 		border-radius: 3.5em;
-		color: #ffffff;
+		color: #ffecec;
 		cursor: pointer;
 		display: inline-block;
 		height: 3.5em;
@@ -2051,7 +2051,7 @@ input, select, textarea {
 			}
 
 		.main.dark {
-			color: #ffffff;
+			color: rgb(39, 58, 68);
 		}
 
 			.main.dark a {
@@ -2244,18 +2244,19 @@ input, select, textarea {
 /* Intro */
 
 	#intro {
-		background: url("images/overlay.png"), url("../../images/intro.jpg");
-		background-size: 256px 256px, cover;
+		background: url("/images/20230322_202303 (1).jpg"), url("../../images/intro.jpg");
+		background-size: 100%;
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
-		background-repeat: repeat, no-repeat;
+		background-repeat: no-repeat;
+		
 	}
 
 /* One */
 
 	#one {
-		background: url("images/overlay.png"), url("../../images/one.jpg");
-		background-size: 256px 256px, cover;
+		background: url("https://edsurge.imgix.net/uploads/post/image/12176/coding-1556754232.jpg?auto=compress%2Cformat&w=2000&h=810&fit=crop"), url("../../images/one.jpg");
+		background-size:  cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
 	}
@@ -2263,8 +2264,8 @@ input, select, textarea {
 /* Two */
 
 	#two {
-		background: url("images/overlay.png"), url("../../images/two.jpg");
-		background-size: 256px 256px, cover;
+		background: url("https://www.poultryworld.net/app/uploads/2022/06/IMG_jairo-alzate-Z8KdK-5auxc-unsplash-848x565.jpg"), url("../../images/two.jpg");
+		background-size:  cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
 	}
