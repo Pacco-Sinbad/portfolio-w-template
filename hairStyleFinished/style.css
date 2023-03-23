@@ -93,8 +93,13 @@ header{
   line-height: 4em;
 }
 
-nav li{
-  display: inline-block;
+nav ul{
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  margin: 0 1em;
+}
+ul li{
   margin: 0 1em;
 }
 
@@ -111,6 +116,17 @@ nav li a,
   text-decoration: none;
 }
 
+@media (max-width: 950px){
+  .mqd{
+    display: none;
+  }
+  nav ul li{
+    display: flex;
+   justify-content: space-evenly;
+    margin: 0 .2em;
+  }
+}
+
 /* main */
 
 main{
@@ -125,6 +141,14 @@ h1{
   font-size: 6em;
   padding: 1.5em 0 0 0;
 }
+@media (max-width: 650px){
+  .baseContainer h1{
+    font-size: 3em;
+  }
+  .hours{
+    left: 15em;
+  }
+}
 
 .hours{
   float: right;
@@ -138,6 +162,12 @@ h1{
                1px -1px 0 black,
                -1px -1px 0 black;
   letter-spacing: .3em;             
+}
+@media (max-width: 650px){
+  .hours{
+    left: 10em;
+    top: 27em;
+  }
 }
 
 h1 + p{
@@ -174,7 +204,16 @@ select{
   margin-top: 2.5em;
   border-radius: 3px;
 }
-
+@media (max-width: 800px){
+  .smallBlock{
+    width: 65%;
+  }
+}
+@media (max-width: 450px ){
+  .smallBlock{
+    width: 90%;
+  }
+}
 .smallBlock a{
   display: inline-block;
   background-color: wheat;
@@ -232,23 +271,38 @@ select{
   padding: .5em 0;
 }
 
-
+@media (max-width: 800px){
+  .tabs{
+    float: none;
+    margin: 0 auto;
+  }
+  .tabs div{
+    margin: .2em 0;
+  }
+  .services{
+    padding: 0 0 1em 0;
+  }
+}
 /* media */
 
 .media section{
   float: left;
   width: 50%;
-  margin: 5em 0;
-}
-
-.momentum{
-  padding-right: 8em;
-  padding-top: 8em;
  
 }
 
+.momentum{
+ padding: 2em 0;
+ 
+}
+
+.video{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2em 0;
+}
 .video img{
-  display: block;
   width: 50%;
   height: auto;
   margin: 0 auto;
@@ -271,6 +325,19 @@ select{
 
 .media{
   margin-bottom: 2em;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+@media (max-width: 1030px){
+  .media{
+    flex-direction: column;
+  }
+  .video img{
+    width: 100%
+  };
+  
 }
 
 /* employees */
@@ -332,7 +399,15 @@ select{
   font-size: .75em;
 }
 
-
+@media (max-width: 800px){
+  .employees{
+    flex-direction: column;
+    align-items: center;
+  }
+  .picture{
+    width: 85%;
+  }
+}
 /* colour day */
 
 .coupon{
@@ -398,9 +473,8 @@ select{
   justify-content: flex-start;
   align-items: stretch;
   margin-bottom: 20em;
-  
-  
 }
+
 
 .a1{
   border: 5px solid rgb(8, 6, 6);
@@ -466,6 +540,35 @@ select{
   background-size: cover;
   box-shadow: inset 1px -1px 70px black;
   border-radius: 0 17px 0 17px;
+}
+
+@media (max-width: 1000px){
+  .models{
+    flex-wrap: nowrap;
+    align-items: center;
+    height: fit-content;
+  }
+  .models section{
+    width: 75%;
+  }
+  .a1{
+    height: 20em;
+    background-position: center;
+  }
+  .a5{
+    height: 40em;
+  }
+  .a4{
+    height: 30em;
+    background-position: center;
+  }
+  .a3{
+    background-position: center;
+  }
+  .a2{
+    background-position: center;
+  }
+ 
 }
 /******************************************
 /* ADDITIONAL STYLES
