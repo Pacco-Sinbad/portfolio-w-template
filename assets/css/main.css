@@ -2247,7 +2247,7 @@ input, select, textarea {
 /* Intro */
 
 	#intro {
-		background: url("/portfolio-w-template/images/20230323_171658.jpg"), url("../../images/intro.jpg");
+		background: url("/images/20230323_171658.jpg"), url("../../images/intro.jpg");
 		background-size: 120%;
 		background-attachment: fixed, fixed;
 		background-position-x: left;
