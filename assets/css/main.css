@@ -2273,16 +2273,14 @@ input, select, textarea {
 	}
 	
 	#intro h2 {
-		transform: translate(-25%,-80%);
-		
-		
+		transform: translate(0,-80%);	
 	}
 	#intro p{
 		font-size: 1.5em;
-		transform: translate(-15%,-170%);
+		transform: translate(0,-170%);
 	}
 	#intro footer{
-		transform: translate(-22%,-40%);
+		transform: translate(0,120%);
 		
 	}
 	#intro a, #one a, #two .button{
@@ -2290,48 +2288,82 @@ input, select, textarea {
 	}
 	@media screen and (max-width: 1600px){
 		#intro h2 {
-			transform: translate(-25%,20%);
+			transform: translate(0,-180%);
 		}
 		#intro p{
 			font-size: 1.5em;
-			transform: translate(-15%,50%);
+			transform: translate(0,-350%);
 		}
 		#intro footer{
-			transform: translate(-22%,40%);
+			transform: translate(0,200%);
 		}
 	}
+
+
 	@media screen and (max-width: 980px){
 		#intro{
 			background-position-x: 50%;	
 		}
 		#intro h2 {
-			transform: translate(-25%,90%);
+			transform: translate(0,220%);
 		}
 		#intro p{
 			font-size: 1.5em;
-			transform: translate(-5%,200%);
+			transform: translate(0,500%);
 		}
 		#intro footer{
-			transform: translate(-18%,65%);
+			transform: translate(0,205%);
 		}
 	}
-	@media  screen and (max-width: 784px ) {
-		#intro p{
-			font-size: 1.25em;
-		}	
-	}
-	@media  screen and (max-width: 650px ) {
+
+	@media  screen and (max-width: 736px ) {
 		#intro h2 {
-			transform: translate(-18%,180%);
+			transform: translate(0,420%);
+		}
+		#intro p{
+			transform: translate(0,800%);
 		}
 		#intro footer{
-			transform: translate(-18%,85%);
+			transform: translate(0,280%);
 		}			
 	}
+
+	@media  screen and (max-width: 611px ) {
+		#intro h2 {
+			transform: translate(0,380%);
+		}
+		#intro p{
+			transform: translate(0,400%);
+		}
+		#intro footer{
+			transform: translate(0,300%);
+		}			
+	}
+
+
 	@media  screen and (max-width: 371px ) {
 		#intro p{
-			transform: translate(-5%,120%);
+			transform: translate(0,380%);
+			font-size: 1.25em;
+			width: 80%;
 		}	
+		#intro{
+			background-position-x: 60%;	
+		}
+		#intro footer{
+			visibility: hidden;
+		}
+	}
+
+	@media  screen and (max-width: 345px ) {
+		#intro p{
+			transform: translate(0,280%);
+			font-size: 1.25em;
+			width: 80%;
+		}	
+		#intro{
+			background-position-x: 60%;	
+		}
 	}
 	
 /* One */
