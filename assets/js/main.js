@@ -76,10 +76,10 @@
 
 		}
 
-	// Gallery.
+	// Gallery.                                    LOOK HERE!!! THIS MIGHT BE THE ISSUE
 		$window.on('load', function() {
 
-			var $gallery = $('.gallery');
+			var $gallery = $('.gallery');    //!!!! THIS KEPT THE SITE FROM OPENNING
 
 			$gallery.poptrox({
 				baseZIndex: 10001,

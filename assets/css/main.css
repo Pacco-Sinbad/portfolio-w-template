@@ -2274,6 +2274,12 @@ input, select, textarea {
 		background-position: top left, center center;
 	}
 
+/*MY PERSONAL CHANGE FOR THE ARTICLES IN GALLERY*/
+.gallery article{
+	
+	border:4px solid rgb(161, 190, 176);
+}
+
 /* Contact */
 
 	#contact {
