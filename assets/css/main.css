@@ -2264,7 +2264,7 @@ input, select, textarea {
 
 	#intro {
 		background: url("images/mathias.jpg"), url("../../images/intro.jpg");
-		background-size: 120%;
+		background-size: cover;
 		background-attachment: fixed, fixed;
 		background-position-x: left;
 		background-position-y: 20%;
@@ -2272,7 +2272,7 @@ input, select, textarea {
 		
 	}
 	
-	/* #intro h2 {
+	#intro h2 {
 		transform: translate(-25%,-80%);
 		
 		
@@ -2284,11 +2284,56 @@ input, select, textarea {
 	#intro footer{
 		transform: translate(-22%,-40%);
 		
-	} */
+	}
 	#intro a, #one a, #two .button{
 		background-color: #98c59362;
 	}
-
+	@media screen and (max-width: 1600px){
+		#intro h2 {
+			transform: translate(-25%,20%);
+		}
+		#intro p{
+			font-size: 1.5em;
+			transform: translate(-15%,50%);
+		}
+		#intro footer{
+			transform: translate(-22%,40%);
+		}
+	}
+	@media screen and (max-width: 980px){
+		#intro{
+			background-position-x: 50%;	
+		}
+		#intro h2 {
+			transform: translate(-25%,90%);
+		}
+		#intro p{
+			font-size: 1.5em;
+			transform: translate(-5%,200%);
+		}
+		#intro footer{
+			transform: translate(-18%,65%);
+		}
+	}
+	@media  screen and (max-width: 784px ) {
+		#intro p{
+			font-size: 1.25em;
+		}	
+	}
+	@media  screen and (max-width: 650px ) {
+		#intro h2 {
+			transform: translate(-18%,180%);
+		}
+		#intro footer{
+			transform: translate(-18%,85%);
+		}			
+	}
+	@media  screen and (max-width: 371px ) {
+		#intro p{
+			transform: translate(-5%,120%);
+		}	
+	}
+	
 /* One */
 
 	#one {
