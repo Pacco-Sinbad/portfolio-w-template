@@ -504,7 +504,7 @@ input, select, textarea {
 		font-weight: 700;
 		font-size: 18pt;
 		line-height: 1.75em;
-		color: #39454b;
+		color: #1e3333;                                              /*this is the color for the whole sites text */
 		letter-spacing: 0.025em;
 	}
 
@@ -1419,18 +1419,19 @@ input, select, textarea {
 
 /* Gallery */
 /*MY PERSONAL CHANGE FOR THE ARTICLES IN GALLERY*/
+#work{
+	background: radial-gradient(rgb(94,118,85),rgba(125, 135, 129) )	
+}
+
 .gallery article{
 	
-	border:4px solid rgb(161, 190, 176);
+	border:4px solid rgba(161, 190, 176, 0);
 }
                                                                  /*LOOK HERE TO MAKE LINKS VISIBLE AGAIN */
 .gallery .visibility{
-	visibility: hidden;
+	display: none;
 }
-#work{                                                            /*LOOK HERE TO ADD HEIGHT TO THE SECTION */
-	height: 40em;
-	overflow: hidden;
-}
+
 
 
 	.gallery {
@@ -1971,7 +1972,7 @@ input, select, textarea {
 			justify-content: center;
 			text-align: center;
 			padding: 3em 0 3em 0;
-			-webkit-text-stroke: .75px rgb(255, 255, 255);    /* I had to add an outline to assisst against my photo*/
+			-webkit-text-stroke: 2px rgb(7, 29, 27);    /* I had to add an outline to assisst against my photo*/
 		}
 
 			.main.style1 h2 {
@@ -2061,7 +2062,7 @@ input, select, textarea {
 			}
 
 			.main.style3.primary {
-				background: #2568496e;
+				background: #ffffff6e;
 			}
 
 			.main.style3.secondary {
@@ -2270,7 +2271,7 @@ input, select, textarea {
 		background-position-y: 20%;
 		background-repeat: no-repeat;
 		justify-content: flex-start;
-		color: #39454b;
+		color: #ffffff;
 	}
 	
 	#intro p{
@@ -2319,19 +2320,33 @@ input, select, textarea {
 /* One */
 
 	#one {
-		background: url("https://edsurge.imgix.net/uploads/post/image/12176/coding-1556754232.jpg?auto=compress%2Cformat&w=2000&h=810&fit=crop"), url("../../images/one.jpg");
+		background: url(/assets/css/images/pine-one.jpg), url("../../images/one.jpg");
 		background-size:  cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
+		/* background:linear-gradient(rgba(125, 135, 129), rgb(94,118,85), rgba(125, 135, 129)); */
 	}
 
+	#one .icons a{
+		background-color: rgba(0, 0, 0, 0);
+	}
+	#one div{
+		box-shadow: 5px 0px 70px 40px rgb(57,69,75);
+		border-radius: 3px;
+	}
 /* Two */
 
 	#two {
-		background: url("https://www.poultryworld.net/app/uploads/2022/06/IMG_jairo-alzate-Z8KdK-5auxc-unsplash-848x565.jpg"), url("../../images/two.jpg");
-		background-size:  cover;
+		background: url(assets/css/images/pine-two.jpg), url("../../images/two.jpg");
+		background-size:  contain;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
+		/* background:linear-gradient(rgba(125, 135, 129),  rgb(94,118,85), rgba(125, 135, 129)); */
+	}
+
+	#two div{
+		box-shadow: 5px 0px 70px 40px rgb(57,69,75);
+		border-radius: 3px;
 	}
 
 
@@ -2341,6 +2356,7 @@ input, select, textarea {
 	#contact {
 		overflow: hidden;
 		padding-bottom: 0;
+		background: linear-gradient(rgb(120,133,122),wheat)
 	}
 
 		#contact .box {
@@ -2353,6 +2369,15 @@ input, select, textarea {
 			-ms-transform: translateY(0);
 			transform: translateY(0);
 			position: relative;
+			/* my changes */
+			background-color: #d8d6d6;
+			color: rgb(112, 111, 111);
+			border-radius: 3px;
+			box-shadow: 2px 3px 20px rgb(57,69,75);
+		}
+		#contact div > input,
+		#contact div > textarea{
+			background-color: whitesmoke;
 		}
 
 		#contact.inactive .box {
