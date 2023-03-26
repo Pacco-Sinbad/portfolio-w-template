@@ -1431,6 +1431,12 @@ input, select, textarea {
 	/* background: radial-gradient(rgb(94,118,85),rgba(125, 135, 129) )	 */
 }
 
+#work header{
+	background-color: #142222c0;
+	border-radius: 30% 90%;
+	box-shadow: inset 0px 0px 70px 15px black;
+}
+
 
                                                                  /*LOOK HERE TO MAKE LINKS VISIBLE AGAIN */
 .gallery .visibility{
