@@ -2303,13 +2303,11 @@ input, select, textarea {
 		}
 	}
 
+
 	@media  screen and (max-width: 400px ) {
 		#intro footer{
 			visibility: hidden;
 		}
-	}
-
-	@media  screen and (max-width: 400px ) {
 		#intro {
 			justify-content: center;
 			align-items: first baseline;
@@ -2317,6 +2315,8 @@ input, select, textarea {
 		#intro p{
 			font-size: 1.25em;
 			width: 80%;
+			font-size: 1.5em;
+			
 		}	
 		#intro{
 			background-position-x: 60%;	
