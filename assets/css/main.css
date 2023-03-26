@@ -1427,14 +1427,11 @@ input, select, textarea {
 	background-position-y: 10%;
 	background-repeat: no-repeat;
 	color: rgb(204, 195, 168);
-	-webkit-text-stroke:1px #1c422d;
+	-webkit-text-stroke:1px #42331c;
 	/* background: radial-gradient(rgb(94,118,85),rgba(125, 135, 129) )	 */
 }
 
-.gallery article{
-	
-	border:4px solid rgba(161, 190, 176, 0);
-}
+
                                                                  /*LOOK HERE TO MAKE LINKS VISIBLE AGAIN */
 .gallery .visibility{
 	display: none;
@@ -2284,6 +2281,7 @@ input, select, textarea {
 	
 	#intro p{
 		font-size: 1.5em;
+
 	}
 	#intro a, #one a, #two .button{
 		background-color: #98c59362;
