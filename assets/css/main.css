@@ -1420,7 +1420,15 @@ input, select, textarea {
 /* Gallery */
 /*MY PERSONAL CHANGE FOR THE ARTICLES IN GALLERY*/
 #work{
-	background: radial-gradient(rgb(94,118,85),rgba(125, 135, 129) )	
+	background: url(images/pine-sprig.jpg), url("../../images/intro.jpg");
+	background-size: cover;
+	background-attachment: fixed, fixed;
+	background-position-x: left;
+	background-position-y: 10%;
+	background-repeat: no-repeat;
+	color: rgb(204, 195, 168);
+	-webkit-text-stroke:1px #1c422d;
+	/* background: radial-gradient(rgb(94,118,85),rgba(125, 135, 129) )	 */
 }
 
 .gallery article{
@@ -2337,7 +2345,7 @@ input, select, textarea {
 /* Two */
 
 	#two {
-		background: url(assets/css/images/pine-two.jpg), url("../../images/two.jpg");
+		background: url(images/pine-two.jpg), url("../../images/two.jpg");
 		background-size:  contain;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
@@ -2356,7 +2364,7 @@ input, select, textarea {
 	#contact {
 		overflow: hidden;
 		padding-bottom: 0;
-		background: linear-gradient(rgb(120,133,122),wheat)
+		background: linear-gradient(rgb(82, 94, 83),wheat)
 	}
 
 		#contact .box {
