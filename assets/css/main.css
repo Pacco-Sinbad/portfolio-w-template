@@ -1971,7 +1971,7 @@ input, select, textarea {
 			justify-content: center;
 			text-align: center;
 			padding: 3em 0 3em 0;
-			-webkit-text-stroke: 2px rgba(57, 69,75);    /* I had to add an outline to assisst against my photo*/
+			-webkit-text-stroke: .75px rgb(255, 255, 255);    /* I had to add an outline to assisst against my photo*/
 		}
 
 			.main.style1 h2 {
@@ -2269,114 +2269,52 @@ input, select, textarea {
 		background-position-x: left;
 		background-position-y: 20%;
 		background-repeat: no-repeat;
-		
+		justify-content: flex-start;
+		color: #39454b;
 	}
-/* 	
-	#intro h2 {
-		transform: translate(0,-80%);	
-	}
+	
 	#intro p{
 		font-size: 1.5em;
-		transform: translate(0,-170%);
-	}
-	#intro footer{
-		transform: translate(0,120%);
-		
 	}
 	#intro a, #one a, #two .button{
 		background-color: #98c59362;
 	}
 	
-	@media screen and (max-width: 1600px){
-		#intro h2 {
-			transform: translate(0,-180%);
-		}
-		#intro p{
-			font-size: 1.5em;
-			transform: translate(0,-350%);
-		}
-		#intro footer{
-			transform: translate(0,200%);
-		}
+	@media screen and (max-width: 1275px){
+	
 	}
 
 
 	@media screen and (max-width: 980px){
 		#intro{
 			background-position-x: 50%;	
+			align-items: flex-end;
+			justify-content: center;
 		}
-		#intro h2 {
-			transform: translate(0,220%);
-		}
-		#intro p{
-			font-size: 1.5em;
-			transform: translate(0,500%);
-		}
-		#intro footer{
-			transform: translate(0,205%);
+		#intro div{
+			margin-bottom: 4em;
 		}
 	}
 
-	@media  screen and (max-width: 736px ) {
-		#intro h2 {
-			transform: translate(0,420%);
-		}
-		#intro p{
-			transform: translate(0,800%);
-		}
-		#intro footer{
-			transform: translate(0,280%);
-		}			
-	}
-
-	@media  screen and (max-width: 611px ) {
-		#intro h2 {
-			transform: translate(0,380%);
-		}
-		#intro p{
-			transform: translate(0,400%);
-		}
-		#intro footer{
-			transform: translate(0,300%);
-		}			
-	}
-
-
-	@media  screen and (max-width: 371px ) {
-		#intro p{
-			transform: translate(0,380%);
-			font-size: 1.25em;
-			width: 80%;
-		}	
-		#intro{
-			background-position-x: 60%;	
-		}
+	@media  screen and (max-width: 400px ) {
 		#intro footer{
 			visibility: hidden;
 		}
 	}
 
-	@media  screen and (max-width: 345px ) {
-		#intro h2 {
-			transform: translate(0,0%);
+	@media  screen and (max-width: 400px ) {
+		#intro {
+			justify-content: center;
+			align-items: first baseline;
 		}
 		#intro p{
-			transform: translate(0,0);
 			font-size: 1.25em;
 			width: 80%;
 		}	
-		#intro div{
-			overflow: hidden;
-			transform: translateY(100%);
-		}
 		#intro{
 			background-position-x: 60%;	
 		}
-		#intro div{
-			overflow: hidden;
-			scroll-behavior: none;	
-		}
-	} */
+	}
 	
 /* One */
 
