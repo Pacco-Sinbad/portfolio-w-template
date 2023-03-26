@@ -2286,6 +2286,7 @@ input, select, textarea {
 	#intro a, #one a, #two .button{
 		background-color: #98c59362;
 	}
+	
 	@media screen and (max-width: 1600px){
 		#intro h2 {
 			transform: translate(0,-180%);
@@ -2356,13 +2357,23 @@ input, select, textarea {
 	}
 
 	@media  screen and (max-width: 345px ) {
+		#intro h2 {
+			transform: translate(0,0%);
+		}
 		#intro p{
-			transform: translate(0,280%);
+			transform: translate(0,0);
 			font-size: 1.25em;
 			width: 80%;
 		}	
+		#intro div{
+			overflow: hidden;
+			transform: translateY(100%);
+		}
 		#intro{
 			background-position-x: 60%;	
+		}
+		#intro div{
+			overflow: hidden;	
 		}
 	}
 	
