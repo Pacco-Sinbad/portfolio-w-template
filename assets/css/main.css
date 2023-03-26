@@ -2344,9 +2344,10 @@ input, select, textarea {
 
 	#two {
 		background: url(images/pine-two.jpg), url("../../images/two.jpg");
-		background-size:  contain;
+		background-size:  cover;
 		background-attachment: fixed, fixed;
-		background-position: top left, center center;
+		background-position: bottom left, center center;
+		background-repeat: no-repeat;
 		/* background:linear-gradient(rgba(125, 135, 129),  rgb(94,118,85), rgba(125, 135, 129)); */
 	}
 
