@@ -2353,9 +2353,13 @@ input, select, textarea {
 	#one .icons a{
 		background-color: rgba(0, 0, 0, 0);
 	}
+	#one .icons{
+		font-size: .7em;
+	}
 	#one div{
 		box-shadow: 5px 0px 70px 40px rgb(57,69,75);
 		border-radius: 3px;
+
 	}
 	@media screen and (max-width: 425px){
 		#one{
