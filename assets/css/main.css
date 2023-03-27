@@ -1431,10 +1431,21 @@ input, select, textarea {
 	/* background: radial-gradient(rgb(94,118,85),rgba(125, 135, 129) )	 */
 }
 
+#work article{
+	padding: .3em;
+}
+
 #work header{
 	background-color: #142222c0;
 	border-radius: 30% 90%;
-	box-shadow: inset 0px 0px 70px 15px black;
+	box-shadow: inset 0px 0px 70px 15px rgba(0, 0, 0, 0.863);
+}
+@media screen and (max-width: 425px) {
+	#work{
+		background-position-x: center;
+		background-position-y: center;
+		background-size: 230%;
+	} 
 }
 
 
@@ -2346,6 +2357,11 @@ input, select, textarea {
 		box-shadow: 5px 0px 70px 40px rgb(57,69,75);
 		border-radius: 3px;
 	}
+	@media screen and (max-width: 425px){
+		#one{
+			background-position: top;
+		}
+	}
 /* Two */
 
 	#two {
@@ -2360,6 +2376,14 @@ input, select, textarea {
 	#two div{
 		box-shadow: 5px 0px 70px 40px rgb(57,69,75);
 		border-radius: 3px;
+	}
+
+	@media screen and (max-width: 425px){
+		#two{
+			background-image: url(/assets/css/images/pine-one.jpg);
+			background-position: top right;
+		}
+		
 	}
 
 
